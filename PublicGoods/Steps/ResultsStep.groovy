@@ -33,8 +33,8 @@ resultsStep.done = {
     curRound++
     cooperationStep.start()
   } else {
+    println "Done"
     g.V.filter{it.active}.each { player->
-      println "Done"
       player.text = c.get("Finished", player.private.score)
     }
   }
