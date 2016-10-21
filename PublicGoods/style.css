@@ -1,0 +1,9 @@
+circle[cooperation="0"] {
+  fill: grey;
+}
+circle[cooperation="1"] {
+  fill: green;
+}
+circle[cooperation="-1"] {
+  fill: red;
+}
