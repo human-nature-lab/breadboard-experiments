@@ -1,0 +1,5 @@
+Name,Type,Min.,Max.,Default,Short Description
+nColors,Integer,2,5,3,Number of colors
+successBonus,Integer,0,1000,300,Reward in cents for solving graph
+gameLength,Integer,10,1000,300,Length of game in seconds
+v,Integer,2,5,2,Number of edges per player

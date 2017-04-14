@@ -1,0 +1,112 @@
+circle.client {
+  stroke: #333;
+  stroke-width: 3px;
+  fill-opacity: 1;
+}
+
+
+
+line.client {
+  stroke: #333;
+  stroke-width: 3px;
+}
+
+line.client[conflict="1"] {
+  stroke: red;
+  stroke-width: 12px;
+}
+
+text.client {
+  fill: #000;
+  stroke: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  dominant-baseline: middle;    
+}
+
+p.conflicts {
+  color: white;
+  background: red;
+  font-weight: bold;
+}
+
+p.no-conflicts {
+  color: white;
+  background: green;
+  font-weight: bold;
+}
+
+#text {
+  font-size: 13pt;
+  line-height: 1.3em;
+  font-size: medium;
+  line-height: normal;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+}
+
+circle.client[color="0"] { fill:#999; } 
+circle.client[color="1"] { fill:#1b9e77; }
+circle.client[color="2"] { fill:#d95f02; }
+circle.client[color="3"] { fill:#7570b3; } 
+
+circle[color="0"] { fill:#999; } 
+ 
+circle[color="1"] { fill:#1b9e77; }
+circle[color="2"] { fill:#d95f02; }
+circle[color="3"] { fill:#7570b3; } 
+circle[color="4"] { fill:#e7298a; } 
+circle[color="5"] { fill:#e6ab02; } 
+circle[color="6"] { fill:#66a61e; }
+circle[color="7"] { fill:#a6761d; } 
+circle[color="8"] { fill:#666666; } 
+
+button.color1 { background-color:#1b9e77; } 
+button.color2 { background-color:#d95f02; } 
+button.color3 { background-color:#7570b3; } 
+button.color4 { background-color:#e7298a; }
+button.color5 { background-color:#e6ab02; } 
+button.color6 { background-color:#66a61e; }
+button.color7 { background-color:#a6761d; } 
+button.color8 { background-color:#666666; } 
+
+circle[choices] {
+  fill-opacity: 1;
+}
+
+circle {
+  fill-opacity: 0.5;
+}
+
+circle[selected="1"] {
+  stroke: black;
+  stroke-width: 3px;
+}
+
+line[selected="1"] {
+  stroke: black;
+  stroke-width: 2px;
+}
+
+line[conflict="1"] {
+  stroke: red;
+  stroke-width: 3px;
+}
+
+button {
+  font-weight: bold;
+  margin: .5em;
+  font-size: 1.5em;
+}
+
+div.choices button {
+  padding-right: 1em;
+}
+
+table.list {
+  padding-left: 1em;
+}
+
+table.list td, table.listitem td {
+  vertical-align: top;
+}
