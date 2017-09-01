@@ -3,7 +3,7 @@ gameStartStep = stepFactory.createStep("gameStartStep")
 gameStartStep.run = {
   println("gameStartStep.run")
  
-  // Preferential attachment network with v edges is always solvable with v + 1 edges
+  // Preferential attachment network with v edges is always solvable with v + 1 colors
   g.barbasiAlbert(v)
   
   // Add a timer to all players
