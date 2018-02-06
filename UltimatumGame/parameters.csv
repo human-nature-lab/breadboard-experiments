@@ -1,2 +1,0 @@
-Name,Type,Min.,Max.,Default,Short Description
-sum,Integer,0,1000,100,The amount of points the proposer splits

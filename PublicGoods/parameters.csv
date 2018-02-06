@@ -1,5 +1,0 @@
-Name,Type,Min.,Max.,Default,Short Description
-coc,Integer,10,1000,50,Cost per neighbor, in cents, to cooperate
-po,Integer,10,1000,100,Payoff, in cents, given to neighbors
-nRounds,Integer,1,20,10,Number of rounds
-initScore,Integer,0,2000,1000,Initial starting score
